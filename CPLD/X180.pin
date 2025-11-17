@@ -1,0 +1,26 @@
+CHIP "C:\WINCUPL\X180\X180" ASSIGNED TO AN TQFP44
+TDI					: 1
+TMS					: 7
+PR1					: 10
+PS1					: 11
+NS1					: 12
+NR1					: 13
+RUSN2					: 14
+LADSN					: 15
+RUSN1					: 35
+RUSN3					: 34
+SLA					: 33
+TDO					: 32
+SLB					: 31
+RUZ					: 30
+RUS					: 28
+ENS					: 27
+TCK					: 26
+RUR					: 25
+ENR					: 23
+NR2					: 22
+NS2					: 21
+ZERO					: 20
+PS2					: 19
+PR2					: 18
+CLK					: 37

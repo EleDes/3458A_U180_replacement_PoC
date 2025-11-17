@@ -1,0 +1,164 @@
+
+*******************************************************************************
+                                     U180
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          f1502isptqfp44  Library DLIB-h-40-1
+Created         Fri Nov 14 15:40:57 2025
+Name            U180 logic 
+Partno          x180 
+Revision        01 
+Date            2025-11-14 
+Designer        MiDi 
+Company         
+Assembly        
+Location        
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+LADSN.d  =>
+    RUR & RUZ
+  # RUR & RUS
+  # RUS & RUZ
+
+LADSN.ck  =>
+    !CLK
+
+NR1.d  =>
+    ENR & !SLA
+
+NR1.ck  =>
+    !CLK
+
+NR2.d  =>
+    ENR & !SLB
+
+NR2.ck  =>
+    !CLK
+
+NS1.d  =>
+    ENS & !SLA
+
+NS1.ck  =>
+    !CLK
+
+NS2.d  =>
+    ENS & !SLB
+
+NS2.ck  =>
+    !CLK
+
+PR1.d  =>
+    ENR & SLA
+
+PR1.ck  =>
+    !CLK
+
+PR2.d  =>
+    ENR & SLB
+
+PR2.ck  =>
+    !CLK
+
+PS1.d  =>
+    ENS & SLA
+
+PS1.ck  =>
+    !CLK
+
+PS2.d  =>
+    ENS & SLB
+
+PS2.ck  =>
+    !CLK
+
+RUSN1.d  =>
+    RUR & !RUS & !RUZ
+
+RUSN1.ck  =>
+    !CLK
+
+RUSN2.d  =>
+    !RUR & !RUS & RUZ
+
+RUSN2.ck  =>
+    !CLK
+
+RUSN3.d  =>
+    !RUR & RUS & !RUZ
+
+RUSN3.ck  =>
+    !CLK
+
+ZERO.d  =>
+    !ENR & !ENS & !RUR & !RUS & !RUZ
+
+ZERO.ck  =>
+    !CLK
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    CLK                         37       V        -       -       -     
+    ENR                         23       V        -       -       -     
+    ENS                         27       V        -       -       -     
+    LADSN                       15       V        -       -       -     
+    LADSN               d       15       X        3       0       1     
+    LADSN               ck      15       X        1       0       1     
+    NR1                         13       V        -       -       -     
+    NR1                 d       13       X        1       0       1     
+    NR1                 ck      13       X        1       0       1     
+    NR2                         22       V        -       -       -     
+    NR2                 d       22       X        1       0       1     
+    NR2                 ck      22       X        1       0       1     
+    NS1                         12       V        -       -       -     
+    NS1                 d       12       X        1       0       1     
+    NS1                 ck      12       X        1       0       1     
+    NS2                         21       V        -       -       -     
+    NS2                 d       21       X        1       0       1     
+    NS2                 ck      21       X        1       0       1     
+    PR1                         10       V        -       -       -     
+    PR1                 d       10       X        1       0       1     
+    PR1                 ck      10       X        1       0       1     
+    PR2                         18       V        -       -       -     
+    PR2                 d       18       X        1       0       1     
+    PR2                 ck      18       X        1       0       1     
+    PS1                         11       V        -       -       -     
+    PS1                 d       11       X        1       0       1     
+    PS1                 ck      11       X        1       0       1     
+    PS2                         19       V        -       -       -     
+    PS2                 d       19       X        1       0       1     
+    PS2                 ck      19       X        1       0       1     
+    RUR                         25       V        -       -       -     
+    RUS                         28       V        -       -       -     
+    RUSN1                       35       V        -       -       -     
+    RUSN1               d       35       X        1       0       1     
+    RUSN1               ck      35       X        1       0       1     
+    RUSN2                       14       V        -       -       -     
+    RUSN2               d       14       X        1       0       1     
+    RUSN2               ck      14       X        1       0       1     
+    RUSN3                       34       V        -       -       -     
+    RUSN3               d       34       X        1       0       1     
+    RUSN3               ck      34       X        1       0       1     
+    RUZ                         30       V        -       -       -     
+    SLA                         33       V        -       -       -     
+    SLB                         31       V        -       -       -     
+    ZERO                        20       V        -       -       -     
+    ZERO                d       20       X        1       0       1     
+    ZERO                ck      20       X        1       0       1     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+
